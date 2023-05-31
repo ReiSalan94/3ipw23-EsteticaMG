@@ -21,7 +21,7 @@ nav ul li {
 }
 
 .social {
-    padding: 40px;
+    padding: 25px;
     float: right;
 }
 
@@ -34,12 +34,12 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.hover {
+.hover, a {
     transition: 0.3;
     opacity: 1;
 }
 
-.hover:hover {
+.hover:hover,a:hover {
     transition: 0.3;
     opacity: 0.5;
 }
@@ -96,7 +96,7 @@ nav ul li a:hover {
     display: inline-block;
     width: 31%;
     padding: 1%;
-    text-align: justify;
+    text-align: center;
     font-weight: 900;
 }
 .item img{ 
@@ -123,4 +123,40 @@ footer{
 }
 .item h2{
     font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer input, footer textarea {
+    width: 250px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+    color: #fff;
+}
+footer input[type="submit"] {
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+footer ul li{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.social ul li a{
+    color: #fff;
+}
+.social ul li{
+    background-color: #000;
+    padding: 5px 10px;
+    margin: 5px;
+}
+header {
+    height: 145px;
 }
