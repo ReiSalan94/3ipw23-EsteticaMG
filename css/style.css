@@ -164,3 +164,24 @@ header {
     line-height: 30px;
     font-size: 20px;
 } 
+.sidebar {
+    width: 165px;
+    font-size: 40px;
+    border-left: 5px solid #FFC905;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0 38px;
+    float: left;
+    clear: both;
+}
+.info {
+    width: 950px;
+    display: inline-block;
+    text-align: justify;
+}
+.bgheader{
+   /* background: url(../img/bgsobre.png) 50% -112px / cover no-repeat fixed;*/
+    height: 200px;
+    margin: 20px;   
+} 
+
