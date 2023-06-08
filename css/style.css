@@ -180,8 +180,10 @@ header {
     text-align: justify;
 }
 .bgheader{
-   /* background: url(../img/bgsobre.png) 50% -112px / cover no-repeat fixed;*/
+    background: url(../img/bgsobre.png);
+    background-size: cover;
+    background-repeat: no;
     height: 200px;
-    margin: 20px;   
+    margin: 20px;
 } 
 
