@@ -187,3 +187,8 @@ header {
     margin: 20px;
 } 
 
+.div50 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
